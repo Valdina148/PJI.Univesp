@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"
+    <link rel="stylesheet" type="text/css" href="style.css ">
+    <title>Tela de Login</title>
+    <title>Cadastrar</title>
+<body>
+ <div>
+ <div id="Cadastro">
+   <div class="Tela1">
+<div class ="justify-center">
+ <div class="Cadastro">
+ <div class = "p">
+ <h1>Criar nova conta</h1>
+ <div>
+  <hr>
+ </div>
+   
+  <p>Por favor insira seu nome</p>
+  <input type="text" placeholder="Nome">
+  <p>Por favor insira o Email</p>
+  <input type="Email" placeholder="Email">
+  <p>Por favor insira a senha</p>
+  <input type="password" placeholder="Senha">
+  <p>Por favor insira a data de nascimento</p>
+ <input type="text" placeholder="Data de nascimento">
+ <p>Cofirmar senha</p>
+<input type="text"                placeholder="Confirmar">
+   <button>Cadastre-se</button>
+   </div>
+<div id="imagem"><img src="https://i.imgur.com/TuGUPob.jpg" alt="">
+
+ <div class ="justify-center">
+   <div class = "p">
+
+</body>
