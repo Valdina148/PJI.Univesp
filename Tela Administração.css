@@ -1,0 +1,163 @@
+*{
+margin: 0;
+padding: 0;
+margin-top:13px;
+transition:all .3s ease-out;
+}
+body{
+    width:53vw;
+   height:40VW;
+    display: block;
+    position: relative;
+   background-color:#d9d9d9;
+     border-radius: 20px;
+      outline-width: 20px;
+      outline-style: solid;
+      outline-color:#b8b9bb;
+      margin: auto;
+      margin-top: 70px;
+      background-repeat: no-repeat;
+      background-size:cover;
+     background-attachment: fixed;
+}   
+.Ad-Medico{
+ position: relative;
+ padding:30px;
+ width: 740px;
+ height: 6px;
+ border: none;
+ text-align: center;
+ background-color: #69d2cd;
+ margin-top: -1em;
+ justify-content: center;
+ background-repeat: no-repeat;
+ background-size:cover;
+  background-attachment: fixed;
+  display: block;
+  
+}
+  .Tela1{
+  position: relative;
+  width: 800px;
+  height: 600px;
+  background-color: white;
+  border: none;
+  right:10px;
+  margin-left: 6px;
+  margin-top: -1em;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  }
+
+.Tela2{
+  position: relative;
+  padding:30px;
+  width: 740px;
+  height: 6px;
+  right:30px;
+  background-color: #69d2cd;
+  border: none;
+  margin-top: 488px;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  }
+
+.Tela3{
+  position:absolute;
+  width: 500px;
+  height: 440px;
+ background-color: #69d2cd;
+  border: none;
+  right:130px;
+  margin-top:-20em;
+  border-radius: 20px;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+ }
+
+.p{
+font-size: 25px;
+letter-spacing:3px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+input{
+   position:relative;
+   width: 70%;
+   padding: 8px 50px;
+   font-size: 15px;
+   display: inline-block;
+   margin-bottom: 2px;
+   margin-top: 8px;
+  
+}
+
+h1{
+  font-size: 30px;
+ text-align: center;
+ margin-bottom: 10px;
+ margin-top: -1em;
+ color:white;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.fa-user-o{
+  position:absolute;
+  right:40px;
+  top:13px;
+  cursor:pointer;
+}
+  .fa-sign-in{
+  position:absolute;
+  right:10px;
+  top:13px;
+  cursor:pointer
+}
+.button-Adicionar {
+ width: 60%;
+ height: 40px;
+ background-color:#90ee90;
+ color:black;
+ border-radius: 30px;
+ border:none;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+  #divleft {
+         float: left;
+         width: 35%;
+         margin-right: 2%;
+         margin-left: 15%;
+         height: 58px;
+         background-color:#69d2cd;
+         margin-top: 8px;
+         text-align: center;  
+ }
+
+        .button-voltar {
+         width: 60%;
+         height: 40px;
+         background-color: red;
+         color:black;
+         border-radius: 30px;
+         border:none;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;        
+}
+         #divright {
+         float: left;
+         width: 35%;
+         margin-right: 2%;
+         height: 58px;
+         text-align: center;
+         margin-top: 8px;
+         background-color:#69d2cd;
+}
+
+button:hover{
+background-color: #294380;
+}
