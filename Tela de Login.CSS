@@ -4,28 +4,28 @@ padding: 0;
 }
 
 body { 
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+ overflow: hidden; white-space: nowrap;
   
-
 }
 
 .Tela-login{
  justify-content: center; 
-width: 30vw;
-  height:40vw;
-   left: 445px;
-    display:inline-flex;
-    border: none;
-    border-left: 1px solid black;
-       position: relative;
-       color: black;
-       text-align: left;
-       background-color: white;
-       margin:auto;
-       align-items:center;
+ width: 30vw;
+height:40vw;
+float: right;
+ display:inline-flex;
+ border: none;
+ border-left: 1px solid black;
+  position: relative;
+text-align: left;
+ background-color: white;
+ margin:auto;
+ align-items:center;
+  overflow: hidden; white-space: nowrap;
 
       
        
@@ -33,22 +33,29 @@ width: 30vw;
 
 .Tela1{
        position: relative;
-       width: 30vw;
+       width: 58vw;
        height:40vw;
        background-color: #69d2cd;
        border: none;
        justify-content: center;
-      background-attachment:fixed left;
+      background-attachment:fixed center;
       background-image: url("https://i.imgur.com/GfKRZBD.jpg");
-       background-size:500px 600px;
-       background-position: centercenter; 
-       background-repeat: no-repeat;
+      background-size:500px 600px;
+background-position: centercenter;
+background-repeat: no-repeat;
+
+ 
+ 
+  
+
+     
+  
   
 }
 
 .Tela2{
   position: relative;
-  width: 60vw;
+  width: 58vw;
        height:40vw;
        justify-content: center;
         background-color:white;
@@ -72,32 +79,30 @@ width: 30vw;
 }
 
  input{
-   position:absolute, fixed;
-   width: 25vw;
-   padding: 5px 5px;
+   position:relative;
+   width: 100%;
+   padding: 8px 8px;
    font-size: 15px;
-   display: block;
-   margin-bottom: 10px;
-  margin-top: 10px;
-   
-   
+   display: inline-block;
+   margin-bottom: 8px;
+   margin-top: 8px;
+   overflow: hidden; white-space: nowrap;
 }
 
- 
- button{
+button{
     background-color: #0d0f36;
     margin-top: 40px;
     padding: 10px;
-    width: 10%;
+    width: 50%;
     border-radius: 10px;
     color: white;
     font-size: 15px; 
     text-align: center;
    display:block;
-   margin-left:8%;
-   position:fixed;
+ margin-left:30%;
+  float: left;
+     
 }
-
 
 button:hover{
             background-color: #294380
@@ -106,7 +111,9 @@ button:hover{
 hr{
   margin-top:1px;
   margin-bottom:20%;
-  whidth:100%;
+  width: 100%;
+  
+
 }
 
 
@@ -117,5 +124,7 @@ h1{
   margin-bottom: 20px;
   margin-top: -3em;
   position:fixed center;
+  word-wrap: break-word;
 }
  
+
